@@ -349,6 +349,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqcvirt",
     vendor: true,
+    relative_install_path: "soundfx",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/soundfx/libqcvirt.so"],
@@ -401,6 +402,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libGLESv2_adreno",
     vendor: true,
+    relative_install_path: "egl",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/egl/libGLESv2_adreno.so"],
@@ -427,6 +429,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.btconfigstore@1.0-impl",
     vendor: true,
+    relative_install_path: "hw",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so"],
@@ -505,6 +508,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqcbassboost",
     vendor: true,
+    relative_install_path: "soundfx",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/soundfx/libqcbassboost.so"],
@@ -544,6 +548,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "eglSubDriverAndroid",
     vendor: true,
+    relative_install_path: "egl",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/egl/eglSubDriverAndroid.so"],
@@ -635,7 +640,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libsnsapi",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libsnsapi.so"],
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/libsnsapi.so"],
@@ -714,6 +718,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "sound_trigger.primary.msmnile",
     vendor: true,
+    relative_install_path: "hw",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/hw/sound_trigger.primary.msmnile.so"],
@@ -779,6 +784,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqcreverb",
     vendor: true,
+    relative_install_path: "soundfx",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/soundfx/libqcreverb.so"],
@@ -805,7 +811,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libsns_low_lat_stream_stub",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libsns_low_lat_stream_stub.so"],
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/libsns_low_lat_stream_stub.so"],
@@ -871,6 +876,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libGLESv1_CM_adreno",
     vendor: true,
+    relative_install_path: "egl",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so"],
@@ -897,6 +903,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "audio.bluetooth_qti.default",
     vendor: true,
+    relative_install_path: "hw",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so"],
@@ -975,6 +982,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.btconfigstore@2.0-impl",
     vendor: true,
+    relative_install_path: "hw",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so"],
@@ -1014,6 +1022,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libq3dtools_adreno",
     vendor: true,
+    relative_install_path: "egl",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/egl/libq3dtools_adreno.so"],
@@ -1222,6 +1231,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libshoebox",
     vendor: true,
+    relative_install_path: "soundfx",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/soundfx/libshoebox.so"],
@@ -1274,6 +1284,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vulkan.adreno",
     vendor: true,
+    relative_install_path: "hw",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/hw/vulkan.adreno.so"],
@@ -1287,6 +1298,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
     vendor: true,
+    relative_install_path: "hw",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so"],
@@ -1339,6 +1351,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libasphere",
     vendor: true,
+    relative_install_path: "soundfx",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/soundfx/libasphere.so"],
@@ -1430,6 +1443,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.1-impl",
     vendor: true,
+    relative_install_path: "hw",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so"],
@@ -1560,6 +1574,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.0-impl-qti",
     vendor: true,
+    relative_install_path: "hw",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
@@ -1651,6 +1666,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libq3dtools_esx",
     vendor: true,
+    relative_install_path: "egl",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/egl/libq3dtools_esx.so"],
@@ -1794,6 +1810,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libEGL_adreno",
     vendor: true,
+    relative_install_path: "egl",
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/egl/libEGL_adreno.so"],
