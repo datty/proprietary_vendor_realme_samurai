@@ -334,1588 +334,1594 @@ install_symlink {
 // Auto-generated vendor prebuilt libraries
 
 cc_prebuilt_library_shared {
-    name: "vendor_libscveCommon",
+    name: "libscveCommon",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libscveCommon.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libscveCommon.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libscveCommon.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libscveCommon_64",
+    name: "libqcvirt",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libscveCommon.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libqcvirt.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libqcvirt.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcvirt",
+    name: "libscveObjectSegmentation",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/soundfx/libqcvirt.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libscveObjectSegmentation.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libscveObjectSegmentation.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcvirt_64",
+    name: "libqmi_common_so",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/soundfx/libqcvirt.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmi_common_so.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_common_so.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libscveObjectSegmentation",
+    name: "libacdb-fts",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libscveObjectSegmentation.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libacdb-fts.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libacdb-fts.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libscveObjectSegmentation_64",
+    name: "libGLESv2_adreno",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libscveObjectSegmentation.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/egl/libGLESv2_adreno.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libGLESv2_adreno.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqmi_common_so",
+    name: "libllvm-glnext",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmi_common_so.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libllvm-glnext.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libllvm-glnext.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqmi_common_so_64",
+    name: "vendor.qti.hardware.btconfigstore@1.0-impl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmi_common_so.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libacdb-fts",
+    name: "libacdbrtac",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libacdb-fts.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libacdbrtac.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libacdbrtac.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libacdb-fts_64",
+    name: "vendor.qti.hardware.scve.objecttracker@1.0",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libacdb-fts.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libGLESv2_adreno",
+    name: "libgcs-calwrapper",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/egl/libGLESv2_adreno.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libgcs-calwrapper.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libgcs-calwrapper.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libGLESv2_adreno_64",
+    name: "vendor.qti.hardware.vpp@1.3",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/egl/libGLESv2_adreno.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.3.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libllvm-glnext",
+    name: "libsysmon_cdsp_skel",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libllvm-glnext.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsysmon_cdsp_skel.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsysmon_cdsp_skel.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libllvm-glnext_64",
+    name: "libqcbassboost",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libllvm-glnext.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libqcbassboost.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libqcbassboost.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.btconfigstore@1.0-impl",
+    name: "libqcmaputils",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqcmaputils.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqcmaputils.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.btconfigstore@1.0-impl_64",
+    name: "libsdsprpc",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsdsprpc.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsdsprpc.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libacdbrtac",
+    name: "eglSubDriverAndroid",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libacdbrtac.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/egl/eglSubDriverAndroid.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/eglSubDriverAndroid.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libacdbrtac_64",
+    name: "libbluetooth_audio_session_qti",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libacdbrtac.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_qti.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libbluetooth_audio_session_qti.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.scve.objecttracker@1.0",
+    name: "libdsutils",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libdsutils.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libdsutils.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.scve.objecttracker@1.0_64",
+    name: "libscveObjectTracker",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libscveObjectTracker.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libscveObjectTracker.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libgcs-calwrapper",
+    name: "libqmi_cci",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libgcs-calwrapper.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmi_cci.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_cci.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libgcs-calwrapper_64",
+    name: "libvpptestutils",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libgcs-calwrapper.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libvpptestutils.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libvpptestutils.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.vpp@1.3",
+    name: "vendor.qti.hardware.scve.panorama@1.0",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.vpp@1.3_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.3.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsysmon_cdsp_skel",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libsysmon_cdsp_skel.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsysmon_cdsp_skel_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsysmon_cdsp_skel.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqcbassboost",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/soundfx/libqcbassboost.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqcbassboost_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/soundfx/libqcbassboost.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqcmaputils",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libqcmaputils.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqcmaputils_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqcmaputils.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsdsprpc",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libsdsprpc.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsdsprpc_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsdsprpc.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_eglSubDriverAndroid",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/egl/eglSubDriverAndroid.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_eglSubDriverAndroid_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/egl/eglSubDriverAndroid.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libbluetooth_audio_session_qti",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_qti.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libbluetooth_audio_session_qti_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libbluetooth_audio_session_qti.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libdsutils",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libdsutils.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libdsutils_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libdsutils.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libscveObjectTracker",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libscveObjectTracker.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libscveObjectTracker_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libscveObjectTracker.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_cci",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmi_cci.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_cci_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmi_cci.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvpptestutils",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libvpptestutils.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvpptestutils_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libvpptestutils.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.scve.panorama@1.0",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.scve.panorama@1.0_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsnsapi",
+    name: "libsnsapi",
     vendor: true,
     srcs: ["proprietary/vendor/lib/libsnsapi.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsnsapi.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsnsapi.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libsnsapi_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsnsapi.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libadreno_utils",
+    name: "libadreno_utils",
     vendor: true,
     srcs: ["proprietary/vendor/lib/libadreno_utils.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libadreno_utils.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libadreno_utils.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libadreno_utils_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libadreno_utils.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxEvrcDec",
+    name: "libOmxEvrcDec",
     vendor: true,
     srcs: ["proprietary/vendor/lib/libOmxEvrcDec.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxEvrcDec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxEvrcDec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libOmxEvrcDec_64",
+    name: "libsns_fastRPC_util",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxEvrcDec.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsns_fastRPC_util.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsns_fastRPC_util.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libsns_fastRPC_util",
+    name: "vendor.qti.hardware.bluetooth_sar@1.1",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libsns_fastRPC_util.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libsns_fastRPC_util_64",
+    name: "libdiag",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsns_fastRPC_util.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libdiag.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libdiag.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.bluetooth_sar@1.1",
+    name: "sound_trigger.primary.msmnile",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/hw/sound_trigger.primary.msmnile.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/sound_trigger.primary.msmnile.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.bluetooth_sar@1.1_64",
+    name: "libgpudataproducer",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libgpudataproducer.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libgpudataproducer.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libdiag",
+    name: "libsns_device_mode_stub",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libdiag.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsns_device_mode_stub.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsns_device_mode_stub.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libdiag_64",
+    name: "libqcci_legacy",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libdiag.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqcci_legacy.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqcci_legacy.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_sound_trigger.primary.msmnile",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/hw/sound_trigger.primary.msmnile.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_sound_trigger.primary.msmnile_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/hw/sound_trigger.primary.msmnile.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgpudataproducer",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libgpudataproducer.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgpudataproducer_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libgpudataproducer.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsns_device_mode_stub",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libsns_device_mode_stub.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsns_device_mode_stub_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsns_device_mode_stub.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqcci_legacy",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libqcci_legacy.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqcci_legacy_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqcci_legacy.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgcs-osal",
+    name: "libgcs-osal",
     vendor: true,
     srcs: ["proprietary/vendor/lib/libgcs-osal.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libgcs-osal.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libgcs-osal.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libgcs-osal_64",
+    name: "libqcreverb",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libgcs-osal.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libqcreverb.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libqcreverb.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcreverb",
+    name: "libsensorcal",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/soundfx/libqcreverb.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsensorcal.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsensorcal.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcreverb_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/soundfx/libqcreverb.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsensorcal",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libsensorcal.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsensorcal_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsensorcal.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsns_low_lat_stream_stub",
+    name: "libsns_low_lat_stream_stub",
     vendor: true,
     srcs: ["proprietary/vendor/lib/libsns_low_lat_stream_stub.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsns_low_lat_stream_stub.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsns_low_lat_stream_stub.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libsns_low_lat_stream_stub_64",
+    name: "liblistensoundmodel2",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsns_low_lat_stream_stub.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/liblistensoundmodel2.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/liblistensoundmodel2.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_liblistensoundmodel2",
+    name: "libstagefright_soft_qtiflacdec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/liblistensoundmodel2.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_liblistensoundmodel2_64",
+    name: "libfastrpc_utf_stub",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/liblistensoundmodel2.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libfastrpc_utf_stub.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libfastrpc_utf_stub.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libstagefright_soft_qtiflacdec",
+    name: "libfastcvdsp_stub",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libfastcvdsp_stub.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libfastcvdsp_stub.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libstagefright_soft_qtiflacdec_64",
+    name: "libGLESv1_CM_adreno",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libfastrpc_utf_stub",
+    name: "libqcrildatactl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libfastrpc_utf_stub.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqcrildatactl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqcrildatactl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libfastrpc_utf_stub_64",
+    name: "audio.bluetooth_qti.default",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libfastrpc_utf_stub.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libfastcvdsp_stub",
+    name: "sensors.ssc",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libfastcvdsp_stub.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/sensors.ssc.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/sensors.ssc.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libfastcvdsp_stub_64",
+    name: "libqmi_csi",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libfastcvdsp_stub.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmi_csi.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_csi.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libGLESv1_CM_adreno",
+    name: "libvppimmotion",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libvppimmotion.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libvppimmotion.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libGLESv1_CM_adreno_64",
+    name: "libqcbor",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqcbor.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqcbor.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcrildatactl",
+    name: "libmmosal",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqcrildatactl.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libmmosal.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libmmosal.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcrildatactl_64",
+    name: "vendor.qti.hardware.btconfigstore@2.0-impl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqcrildatactl.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_audio.bluetooth_qti.default",
+    name: "libadreno_app_profiles",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libadreno_app_profiles.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libadreno_app_profiles.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_audio.bluetooth_qti.default_64",
+    name: "libidl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libidl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libidl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_sensors.ssc",
+    name: "libq3dtools_adreno",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/sensors.ssc.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/egl/libq3dtools_adreno.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libq3dtools_adreno.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_sensors.ssc_64",
+    name: "libOmxApeDec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/sensors.ssc.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxApeDec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxApeDec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqmi_csi",
+    name: "libsnsdiaglog",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmi_csi.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsnsdiaglog.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsnsdiaglog.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqmi_csi_64",
+    name: "libacdbloader",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmi_csi.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libacdbloader.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libacdbloader.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libvppimmotion",
+    name: "libqmi_legacy",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libvppimmotion.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmi_legacy.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_legacy.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libvppimmotion_64",
+    name: "libscveCommon_stub",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libvppimmotion.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libscveCommon_stub.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libscveCommon_stub.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcbor",
+    name: "libOmxAmrDec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqcbor.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxAmrDec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxAmrDec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcbor_64",
+    name: "libmulawdec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqcbor.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libmulawdec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libmulawdec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libmmosal",
+    name: "libvpplibrary",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libmmosal.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libvpplibrary.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libvpplibrary.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libmmosal_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libmmosal.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.btconfigstore@2.0-impl",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.btconfigstore@2.0-impl_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libadreno_app_profiles",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libadreno_app_profiles.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libadreno_app_profiles_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libadreno_app_profiles.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libidl",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libidl.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libidl_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libidl.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libq3dtools_adreno",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/egl/libq3dtools_adreno.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libq3dtools_adreno_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/egl/libq3dtools_adreno.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxApeDec",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxApeDec.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxApeDec_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxApeDec.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsnsdiaglog",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libsnsdiaglog.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libsnsdiaglog_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsnsdiaglog.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libacdbloader",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libacdbloader.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libacdbloader_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libacdbloader.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_legacy",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmi_legacy.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_legacy_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmi_legacy.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libscveCommon_stub",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libscveCommon_stub.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libscveCommon_stub_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libscveCommon_stub.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxAmrDec",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxAmrDec.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxAmrDec_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxAmrDec.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libmulawdec",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libmulawdec.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libmulawdec_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libmulawdec.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvpplibrary",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libvpplibrary.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvpplibrary_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libvpplibrary.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libadiertac",
+    name: "libadiertac",
     vendor: true,
     srcs: ["proprietary/vendor/lib/libadiertac.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libadiertac.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libadiertac.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libadiertac_64",
+    name: "vendor.qti.hardware.dsp@1.0",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libadiertac.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.dsp@1.0",
+    name: "libOmxG711Dec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxG711Dec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxG711Dec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.dsp@1.0_64",
+    name: "vendor.qti.hardware.bluetooth_sar@1.0",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libOmxG711Dec",
+    name: "libOmxWmaDec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxG711Dec.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxWmaDec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxWmaDec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libOmxG711Dec_64",
+    name: "libqdi",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxG711Dec.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqdi.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqdi.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.bluetooth_sar@1.0",
+    name: "libcapiv2vop",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libcapiv2vop.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libcapiv2vop.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.bluetooth_sar@1.0_64",
+    name: "libshoebox",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libshoebox.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libshoebox.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libOmxWmaDec",
+    name: "libllvm-qcom",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxWmaDec.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libllvm-qcom.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libllvm-qcom.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libOmxWmaDec_64",
+    name: "libminkdescriptor",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxWmaDec.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libminkdescriptor.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libminkdescriptor.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqdi",
+    name: "libqmiservices",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqdi.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmiservices.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmiservices.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqdi_64",
+    name: "vulkan.adreno",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqdi.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/hw/vulkan.adreno.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/vulkan.adreno.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libcapiv2vop",
+    name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libcapiv2vop.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libcapiv2vop_64",
+    name: "libCB",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libcapiv2vop.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libCB.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libCB.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libshoebox",
+    name: "libOmxQcelp13Dec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/soundfx/libshoebox.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxQcelp13Dec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxQcelp13Dec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libshoebox_64",
+    name: "libaudcal",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/soundfx/libshoebox.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libaudcal.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libaudcal.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libllvm-qcom",
+    name: "libasphere",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libllvm-qcom.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/soundfx/libasphere.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/soundfx/libasphere.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libllvm-qcom_64",
+    name: "btaudio_offload_if",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libllvm-qcom.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/btaudio_offload_if.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/btaudio_offload_if.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libminkdescriptor",
+    name: "libqmi",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libminkdescriptor.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmi.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmi.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libminkdescriptor_64",
+    name: "libqtigef",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libminkdescriptor.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqtigef.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqtigef.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqmiservices",
+    name: "libvpphvx",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmiservices.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libvpphvx.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libvpphvx.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqmiservices_64",
+    name: "libOpenCL",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmiservices.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOpenCL.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOpenCL.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vulkan.adreno",
+    name: "libgcs",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/hw/vulkan.adreno.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libgcs.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libgcs.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vulkan.adreno_64",
+    name: "vendor.qti.hardware.bluetooth_sar@1.1-impl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/hw/vulkan.adreno.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.bluetooth_audio@2.0-impl",
+    name: "libvpphcp",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libvpphcp.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libvpphcp.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.bluetooth_audio@2.0-impl_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libCB",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libCB.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libCB_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libCB.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxQcelp13Dec",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxQcelp13Dec.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxQcelp13Dec_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxQcelp13Dec.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libaudcal",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libaudcal.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libaudcal_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libaudcal.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libasphere",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/soundfx/libasphere.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libasphere_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/soundfx/libasphere.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_btaudio_offload_if",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/btaudio_offload_if.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_btaudio_offload_if_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/btaudio_offload_if.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmi.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmi.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqtigef",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libqtigef.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqtigef_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqtigef.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvpphvx",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libvpphvx.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvpphvx_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libvpphvx.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOpenCL",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libOpenCL.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOpenCL_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOpenCL.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgcs",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libgcs.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgcs_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libgcs.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.bluetooth_sar@1.1-impl",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.bluetooth_sar@1.1-impl_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvpphcp",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libvpphcp.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvpphcp_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libvpphcp.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libVkLayer_q3dtools",
+    name: "libVkLayer_q3dtools",
     vendor: true,
     srcs: ["proprietary/vendor/lib/libVkLayer_q3dtools.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libVkLayer_q3dtools.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libVkLayer_q3dtools.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libVkLayer_q3dtools_64",
+    name: "libmdmdetect",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libVkLayer_q3dtools.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libmdmdetect.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libmdmdetect.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libmdmdetect",
+    name: "libsensorslog",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libmdmdetect.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsensorslog.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsensorslog.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libmdmdetect_64",
+    name: "libOmxAlacDec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libmdmdetect.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxAlacDec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxAlacDec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libsensorslog",
+    name: "libqcodec2",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libsensorslog.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqcodec2.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqcodec2.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libsensorslog_64",
+    name: "libqmi_encdec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsensorslog.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmi_encdec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_encdec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libOmxAlacDec",
+    name: "libcdsp_default_listener",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxAlacDec.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libcdsp_default_listener.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libcdsp_default_listener.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libOmxAlacDec_64",
+    name: "libqdp",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxAlacDec.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqdp.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqdp.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcodec2",
+    name: "android.hardware.bluetooth@1.0-impl-qti",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqcodec2.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqcodec2_64",
+    name: "libsns_registry_skel",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqcodec2.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libsns_registry_skel.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libsns_registry_skel.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqmi_encdec",
+    name: "libkcl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmi_encdec.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libkcl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libkcl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqmi_encdec_64",
+    name: "libc2d30_bltlib",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmi_encdec.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libc2d30_bltlib.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libc2d30_bltlib.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libcdsp_default_listener",
+    name: "libcdsprpc",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libcdsp_default_listener.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libcdsprpc.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libcdsprpc.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libcdsp_default_listener_64",
+    name: "libdsi_netctrl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libcdsp_default_listener.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libdsi_netctrl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libdsi_netctrl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqdp",
+    name: "libssc_default_listener",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libqdp.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libssc_default_listener.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libssc_default_listener.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libqdp_64",
+    name: "libq3dtools_esx",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqdp.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/egl/libq3dtools_esx.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libq3dtools_esx.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_android.hardware.bluetooth@1.0-impl-qti",
+    name: "vendor.qti.hardware.vpp@1.1",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_android.hardware.bluetooth@1.0-impl-qti_64",
+    name: "libadsprpc",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libadsprpc.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libadsprpc.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libsns_registry_skel",
+    name: "libgsl",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libsns_registry_skel.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libgsl.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libgsl.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libsns_registry_skel_64",
+    name: "vendor.qti.hardware.vpp@1.2",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libsns_registry_skel.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libkcl",
+    name: "libscveObjectTracker_stub",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libkcl.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libscveObjectTracker_stub.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libscveObjectTracker_stub.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libkcl_64",
+    name: "libgcs-ipc",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libkcl.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libgcs-ipc.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libgcs-ipc.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libc2d30_bltlib",
+    name: "libqmi_client_helper",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libc2d30_bltlib.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmi_client_helper.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_client_helper.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libc2d30_bltlib_64",
+    name: "libvppclient",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libc2d30_bltlib.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libvppclient.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libvppclient.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libcdsprpc",
+    name: "libqmi_client_qmux",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libcdsprpc.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libqmi_client_qmux.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_client_qmux.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libcdsprpc_64",
+    name: "libfastcvopt",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libcdsprpc.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libfastcvopt.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libfastcvopt.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libdsi_netctrl",
+    name: "libEGL_adreno",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libdsi_netctrl.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/egl/libEGL_adreno.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/egl/libEGL_adreno.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libdsi_netctrl_64",
+    name: "libOmxAacDec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libdsi_netctrl.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxAacDec.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxAacDec.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libssc_default_listener",
+    name: "libscveObjectSegmentation_stub",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libssc_default_listener.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libscveObjectSegmentation_stub.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libscveObjectSegmentation_stub.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libssc_default_listener_64",
+    name: "libkernelmanager",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libssc_default_listener.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libkernelmanager.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libkernelmanager.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libq3dtools_esx",
+    name: "libC2D2",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/egl/libq3dtools_esx.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libC2D2.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libC2D2.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libq3dtools_esx_64",
+    name: "libOmxVpp",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/egl/libq3dtools_esx.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libOmxVpp.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libOmxVpp.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.vpp@1.1",
+    name: "libadsp_default_listener",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libadsp_default_listener.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libadsp_default_listener.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.vpp@1.1_64",
+    name: "libssc",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libssc.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libssc.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libadsprpc",
+    name: "libcapiv2svacnn",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libadsprpc.so"],
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libcapiv2svacnn.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libcapiv2svacnn.so"],
+        },
+    },
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor_libadsprpc_64",
+    name: "libmdsprpc",
     vendor: true,
-    srcs: ["proprietary/vendor/lib64/libadsprpc.so"],
-    
+    arch: {
+        arm: {
+            srcs: ["proprietary/vendor/lib/libmdsprpc.so"],
+        },
+        arm64: {
+            srcs: ["proprietary/vendor/lib64/libmdsprpc.so"],
+        },
+    },
 }
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgsl",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libgsl.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgsl_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libgsl.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.vpp@1.2",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_vendor.qti.hardware.vpp@1.2_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libscveObjectTracker_stub",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libscveObjectTracker_stub.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libscveObjectTracker_stub_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libscveObjectTracker_stub.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgcs-ipc",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libgcs-ipc.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libgcs-ipc_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libgcs-ipc.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_client_helper",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmi_client_helper.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_client_helper_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmi_client_helper.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvppclient",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libvppclient.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libvppclient_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libvppclient.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_client_qmux",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libqmi_client_qmux.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libqmi_client_qmux_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libqmi_client_qmux.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libfastcvopt",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libfastcvopt.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libfastcvopt_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libfastcvopt.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libEGL_adreno",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/egl/libEGL_adreno.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libEGL_adreno_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/egl/libEGL_adreno.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxAacDec",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxAacDec.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxAacDec_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxAacDec.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libscveObjectSegmentation_stub",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libscveObjectSegmentation_stub.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libscveObjectSegmentation_stub_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libscveObjectSegmentation_stub.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libkernelmanager",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libkernelmanager.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libkernelmanager_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libkernelmanager.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libC2D2",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libC2D2.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libC2D2_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libC2D2.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxVpp",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxVpp.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libOmxVpp_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libOmxVpp.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libadsp_default_listener",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libadsp_default_listener.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libadsp_default_listener_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libadsp_default_listener.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libssc",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libssc.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libssc_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libssc.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libcapiv2svacnn",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libcapiv2svacnn.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libcapiv2svacnn_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libcapiv2svacnn.so"],
-    
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libmdsprpc",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib/libmdsprpc.so"],
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor_libmdsprpc_64",
-    vendor: true,
-    srcs: ["proprietary/vendor/lib64/libmdsprpc.so"],
-    
-}
-
