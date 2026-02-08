@@ -332,9 +332,9 @@ install_symlink {
 }
 
 // Auto-generated vendor prebuilt libraries
-
 cc_prebuilt_library_shared {
     name: "libscveCommon",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -348,6 +348,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcvirt",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "soundfx",
     arch: {
@@ -362,6 +363,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectSegmentation",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -375,6 +377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_common_so",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -388,6 +391,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdb-fts",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -401,6 +405,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLESv2_adreno",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "egl",
     arch: {
@@ -415,6 +420,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libllvm-glnext",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -428,6 +434,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.btconfigstore@1.0-impl",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "hw",
     arch: {
@@ -442,6 +449,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdbrtac",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -455,6 +463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.scve.objecttracker@1.0",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -468,6 +477,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-calwrapper",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -481,6 +491,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.3",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -494,6 +505,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsysmon_cdsp_skel",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -507,6 +519,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcbassboost",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "soundfx",
     arch: {
@@ -521,6 +534,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcmaputils",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -534,6 +548,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdsprpc",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -547,6 +562,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "eglSubDriverAndroid",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "egl",
     arch: {
@@ -561,6 +577,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_qti",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -574,6 +591,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsutils",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -587,6 +605,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectTracker",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -600,6 +619,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_cci",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -613,6 +633,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpptestutils",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -626,6 +647,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.scve.panorama@1.0",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -639,6 +661,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsapi",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -652,6 +675,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadreno_utils",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -665,6 +689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxEvrcDec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -678,6 +703,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_fastRPC_util",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -691,6 +717,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.1",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -704,6 +731,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdiag",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -717,6 +745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sound_trigger.primary.msmnile",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "hw",
     arch: {
@@ -731,6 +760,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpudataproducer",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -744,6 +774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_device_mode_stub",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -757,6 +788,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcci_legacy",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -770,6 +802,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-osal",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -783,6 +816,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcreverb",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "soundfx",
     arch: {
@@ -797,6 +831,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorcal",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -810,6 +845,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_low_lat_stream_stub",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -823,6 +859,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblistensoundmodel2",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -836,6 +873,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstagefright_soft_qtiflacdec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -849,6 +887,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastrpc_utf_stub",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -862,6 +901,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcvdsp_stub",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -875,6 +915,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLESv1_CM_adreno",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "egl",
     arch: {
@@ -889,6 +930,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcrildatactl",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -902,6 +944,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.bluetooth_qti.default",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "hw",
     arch: {
@@ -916,6 +959,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.ssc",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -929,6 +973,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_csi",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -942,6 +987,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvppimmotion",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -955,6 +1001,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcbor",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -968,6 +1015,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmosal",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -981,6 +1029,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.btconfigstore@2.0-impl",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "hw",
     arch: {
@@ -995,6 +1044,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadreno_app_profiles",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1008,6 +1058,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libidl",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1021,6 +1072,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libq3dtools_adreno",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "egl",
     arch: {
@@ -1035,6 +1087,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxApeDec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1048,6 +1101,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsdiaglog",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1061,6 +1115,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdbloader",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1074,6 +1129,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_legacy",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1087,6 +1143,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveCommon_stub",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1100,6 +1157,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxAmrDec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1113,6 +1171,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmulawdec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1126,6 +1185,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpplibrary",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1139,6 +1199,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadiertac",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1152,6 +1213,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.dsp@1.0",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1165,6 +1227,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxG711Dec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1178,6 +1241,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.0",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1191,6 +1255,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxWmaDec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1204,6 +1269,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdi",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1217,6 +1283,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcapiv2vop",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1230,6 +1297,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libshoebox",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "soundfx",
     arch: {
@@ -1244,6 +1312,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libllvm-qcom",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1257,6 +1326,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminkdescriptor",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1270,6 +1340,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmiservices",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1283,6 +1354,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vulkan.adreno",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "hw",
     arch: {
@@ -1297,6 +1369,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "hw",
     arch: {
@@ -1311,6 +1384,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCB",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1324,6 +1398,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxQcelp13Dec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1337,6 +1412,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudcal",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1350,6 +1426,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libasphere",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "soundfx",
     arch: {
@@ -1364,6 +1441,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "btaudio_offload_if",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1377,6 +1455,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1390,6 +1469,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqtigef",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1403,6 +1483,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpphvx",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1416,6 +1497,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOpenCL",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1429,6 +1511,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1442,6 +1525,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.1-impl",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "hw",
     arch: {
@@ -1456,6 +1540,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpphcp",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1469,6 +1554,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVkLayer_q3dtools",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1482,6 +1568,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmdmdetect",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1495,6 +1582,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorslog",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1508,6 +1596,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxAlacDec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1521,6 +1610,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqcodec2",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1534,6 +1624,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_encdec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1547,6 +1638,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdsp_default_listener",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1560,6 +1652,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqdp",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1573,6 +1666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.0-impl-qti",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "hw",
     arch: {
@@ -1587,6 +1681,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsns_registry_skel",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1600,6 +1695,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkcl",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1613,6 +1709,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc2d30_bltlib",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1626,6 +1723,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdsprpc",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1639,6 +1737,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdsi_netctrl",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1652,6 +1751,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc_default_listener",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1665,6 +1765,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libq3dtools_esx",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "egl",
     arch: {
@@ -1679,6 +1780,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.1",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1692,6 +1794,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadsprpc",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1705,6 +1808,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgsl",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1718,6 +1822,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.2",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1731,6 +1836,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectTracker_stub",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1744,6 +1850,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgcs-ipc",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1757,6 +1864,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_client_helper",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1770,6 +1878,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvppclient",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1783,6 +1892,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqmi_client_qmux",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1796,6 +1906,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfastcvopt",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1809,6 +1920,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libEGL_adreno",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "egl",
     arch: {
@@ -1823,6 +1935,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxAacDec",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1836,6 +1949,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libscveObjectSegmentation_stub",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1849,6 +1963,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkernelmanager",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1862,6 +1977,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libC2D2",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1875,6 +1991,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOmxVpp",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1888,6 +2005,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadsp_default_listener",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1901,6 +2019,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1914,6 +2033,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcapiv2svacnn",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
@@ -1927,6 +2047,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmdsprpc",
+    check_elf_files: false,
     vendor: true,
     arch: {
         arm: {
