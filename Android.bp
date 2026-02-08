@@ -649,7 +649,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libadreno_utils",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libadreno_utils.so"],
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/libadreno_utils.so"],
@@ -663,7 +662,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libOmxEvrcDec",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libOmxEvrcDec.so"],
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/libOmxEvrcDec.so"],
@@ -768,7 +766,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libgcs-osal",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libgcs-osal.so"],
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/libgcs-osal.so"],
@@ -1134,7 +1131,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libadiertac",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libadiertac.so"],
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/libadiertac.so"],
@@ -1460,7 +1456,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libVkLayer_q3dtools",
     vendor: true,
-    srcs: ["proprietary/vendor/lib/libVkLayer_q3dtools.so"],
     arch: {
         arm: {
             srcs: ["proprietary/vendor/lib/libVkLayer_q3dtools.so"],
