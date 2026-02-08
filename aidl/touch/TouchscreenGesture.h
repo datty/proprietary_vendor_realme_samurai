@@ -24,7 +24,7 @@ namespace vendor {
 namespace lineage {
 namespace touch {
 
-class TouchscreenGesture : public ITouchscreenGesture {
+class TouchscreenGesture : public BnTouchscreenGesture {
   public:
     ndk::ScopedAStatus getSupportedGestures(std::vector<Gesture>* _aidl_return) override;
     ndk::ScopedAStatus setGestureEnabled(const Gesture& gesture, bool enabled) override;
