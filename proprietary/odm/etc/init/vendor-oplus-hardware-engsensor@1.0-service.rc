@@ -2,4 +2,3 @@ service oplus.engsensor-1-0 /odm/bin/hw/vendor-oplus-hardware-engsensor@1.0-serv
     class main
     user system
     group system
-    interface vendor.oplus.hardware.engsensor@1.0::IEngSensor default

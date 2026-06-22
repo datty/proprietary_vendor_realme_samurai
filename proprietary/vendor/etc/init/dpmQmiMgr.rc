@@ -4,7 +4,6 @@
 
 #start dpmQmiMgr service
 service dpmQmiMgr /system/vendor/bin/dpmQmiMgr
-    interface com.qualcomm.qti.dpm.api@1.0::IdpmQmi dpmQmiService
     class main
     user system
     group system
