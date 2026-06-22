@@ -5,7 +5,6 @@
 #
 
 service wigighalsvc /vendor/bin/wigighalsvc
-    interface vendor.qti.hardware.wigig.supptunnel@1.0::ISuppTunnelProvider default
     class hal
     user wifi
     group wifi
