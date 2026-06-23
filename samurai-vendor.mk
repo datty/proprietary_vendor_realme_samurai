@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/odm/etc/wifi/bin_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version \
     vendor/realme/samurai/proprietary/odm/etc/wifi/bin_version_realme:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version_realme \
     vendor/realme/samurai/proprietary/vendor/firmware/fastchg/19781/oppo_vooc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fastchg/19781/oppo_vooc_fw.bin \
+    vendor/realme/samurai/proprietary/vendor/firmware/tp/18081/FW_S3706_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18081/FW_S3706_SAMSUNG_FAE.img
     vendor/realme/samurai/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/realme/samurai/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/realme/samurai/proprietary/odm/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib/mediadrm/libwvdrmengine.so \
