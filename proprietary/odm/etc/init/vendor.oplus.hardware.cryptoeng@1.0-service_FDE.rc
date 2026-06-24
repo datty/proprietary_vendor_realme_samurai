@@ -17,10 +17,17 @@
 ## **      Dongnan.Wu      20:00, 2018/12/01      modify the path of the cryptoeng data
 ## *************************************************************/
 
-on post-fs-data
-    mkdir /data/vendor_de 0770 system system
-    mkdir /data/vendor_de/0 0770 system system
-    mkdir /data/vendor_de/0/cryptoeng 0770 system system
+# samurai LOS23 bring-up: REMOVED the original `on post-fs-data` block that did
+#   mkdir /data/vendor_de 0770 system system   (+ /0 and /0/cryptoeng)
+# A vendor HAL must never mkdir a top-level /data container: init's mkdir builtin
+# defaults top-level /data dirs to FscryptAction::kRequire (util.cpp ParseMkdir),
+# so this ran FS_IOC_SET_ENCRYPTION_POLICY on the /data/vendor_de container that
+# vold owns. Once vold had populated /data/vendor_de/0, the policy set returned
+# ENOTEMPTY -> init reboot_into_recovery(set_policy_failed:/data/vendor_de) on
+# every boot (the boot loop). vold already creates /data/vendor_de[/0] with the
+# correct DE policy; the cryptoeng HAL (class hal, non-critical) does not need to
+# pre-create it. If fingerprint cryptoeng later needs its dir, re-add ONLY
+# `mkdir /data/vendor_de/0/cryptoeng` under a post-encryption trigger.
 
 service hal_cryptoeng_oppo /odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
     class hal
